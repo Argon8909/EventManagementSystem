@@ -4,6 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>EMS.App</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,10 +12,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EMS.Bll\EMS.Bll.csproj" />
       <ProjectReference Include="..\EMS.Core\EMS.Core.csproj" />
       <ProjectReference Include="..\EMS.Dal\EMS.Dal.csproj" />
+      <ProjectReference Include="..\EMS.Generator.Ws\EMS.Generator.Ws.csproj" />
     </ItemGroup>
 
+
+    <ItemGroup>
+      <Folder Include="Services\" />
+    </ItemGroup>
 
 </Project>

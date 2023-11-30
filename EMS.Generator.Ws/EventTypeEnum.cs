@@ -1,4 +1,4 @@
-namespace EMS.Core.Enums;
+namespace EMS.App.Generator;
 
 public enum EventTypeEnum
 {

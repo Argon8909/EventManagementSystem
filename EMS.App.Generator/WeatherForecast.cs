@@ -1,4 +1,4 @@
-namespace EMS.App;
+namespace EMS.App.Generator;
 
 public class WeatherForecast
 {

@@ -1,6 +1,6 @@
-using EMS.Core.Enums;
 
-namespace EMS.Core.Models;
+
+namespace EMS.App.Generator;
 
 public class Event
 {
