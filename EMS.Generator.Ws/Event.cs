@@ -1,6 +1,6 @@
 
 
-namespace EMS.App.Generator;
+namespace WorkerService;
 
 public class Event
 {

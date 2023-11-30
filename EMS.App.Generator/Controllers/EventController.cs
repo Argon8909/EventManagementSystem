@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
-using EMS.Core.Enums;
-using WorkerService.Generator;
+using WorkerService;
 
 namespace EMS.App.Generator.Controllers;
 

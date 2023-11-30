@@ -1,9 +1,7 @@
-using EMS.App.Generator;
-using WorkerService;
-
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddHostedService<Worker>();
-builder.Services.AddScoped<IEventGeneratorService, Worker>();
+
+// Add services to the container.
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

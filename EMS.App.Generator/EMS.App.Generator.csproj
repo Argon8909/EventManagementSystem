@@ -12,7 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EMS.Core\EMS.Core.csproj" />
       <ProjectReference Include="..\EMS.Generator.Ws\EMS.Generator.Ws.csproj" />
     </ItemGroup>
 

@@ -1,4 +1,4 @@
-namespace WorkerService.Generator;
+namespace WorkerService;
 
 public interface IEventGeneratorService
 {

@@ -1,4 +1,4 @@
-namespace EMS.App.Generator;
+namespace WorkerService;
 
 public enum EventTypeEnum
 {

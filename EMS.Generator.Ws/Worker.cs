@@ -1,8 +1,7 @@
 using System.Text;
-using EMS.App.Generator;
 using Newtonsoft.Json;
 
-namespace WorkerService.Generator;
+namespace WorkerService;
 
 public class Worker : BackgroundService, IEventGeneratorService
 {
