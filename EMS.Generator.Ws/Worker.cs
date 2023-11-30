@@ -27,7 +27,7 @@ public class Worker : BackgroundService, IEventGeneratorService
                 _logger.LogError($"Ошибка при отправке запроса: {ex.Message}");
             }
 
-            await Task.Delay(TimeSpan.FromMilliseconds(_random.Next(1, 2000)));
+            await Task.Delay(TimeSpan.FromMilliseconds(_random.Next(1, 2000)), stoppingToken);
         }
     }
     
