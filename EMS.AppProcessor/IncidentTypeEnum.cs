@@ -1,4 +1,4 @@
-namespace EMS.Core.Enums;
+namespace EMS.App;
 
 public enum IncidentTypeEnum
 {

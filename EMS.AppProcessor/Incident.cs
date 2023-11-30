@@ -1,6 +1,4 @@
-using EMS.Core.Enums;
-
-namespace EMS.Core.Models;
+namespace EMS.App;
 
 public class Incident
 {

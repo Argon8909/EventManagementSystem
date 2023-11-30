@@ -14,4 +14,7 @@ public class IncidentController : Controller
         Console.WriteLine("Принято событие: " + JsonConvert.SerializeObject(receivedEvent));
         return Ok("Произошёл запрос к процессору!");
     }
+    
+    // Логику процессора дописать не успел. Успел написать только генератор событий.
+    
 }

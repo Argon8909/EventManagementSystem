@@ -1,5 +1,3 @@
-
-
 namespace WorkerService;
 
 public class Event
